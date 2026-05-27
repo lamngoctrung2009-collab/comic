@@ -1,0 +1,71 @@
+.footer {
+  width: 100%;             /* Tràn toàn màn hình ngang */
+  background-color: #111;  /* Nền tối */
+  color: #fff;
+  padding: 60px 0 20px 0;
+  margin-top: 60px;
+  border-top: 4px solid #ff5e00;
+}
+
+.footerInner {
+  max-width: 1200px;       /* Giữ nội dung chữ trong khung 1200px */
+  margin: 0 auto;          /* Căn giữa khung nội dung */
+  padding: 0 20px;
+}
+
+.footerGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+}
+
+.footerColumn h3 {
+  color: #ff5e00;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.footerColumn ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerColumn li {
+  color: #aaa;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.footerColumn li:hover {
+  color: #ff5e00;
+}
+
+.subscribeBox {
+  display: flex;
+  gap: 5px;
+}
+
+.subscribeBox input {
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  flex: 1;
+}
+
+.subscribeBox button {
+  background: #ff5e00;
+  border: none;
+  padding: 8px 15px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footerBottom {
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+}
